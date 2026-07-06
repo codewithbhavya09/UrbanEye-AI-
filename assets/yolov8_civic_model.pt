@@ -1,0 +1,19 @@
+If you do not have a custom trained model yet, you can start with the
+default YOLOv8 nano model (`yolov8n.pt`) from Ultralytics for testing.
+Just download it and place it in this folder, then update the
+`YOLO_MODEL_PATH` value in your `.env` file to match the filename.
+
+2. **Uploaded complaint images**
+When users upload photos through the "Report Issue" page, the app
+automatically creates a subfolder here called `uploaded_images/`
+and saves all uploaded photos inside it. You do not need to create
+this subfolder yourself — the app does it automatically.
+
+## Notes
+
+- Do not commit large model files or user-uploaded images to GitHub.
+These are already excluded in the `.gitignore` file.
+- If you train your own custom YOLOv8 model on civic issue images
+(potholes, garbage, water leaks, broken streetlights, damaged roads),
+simply place the resulting `.pt` file in this folder and update the
+`.env` file accordingly.
