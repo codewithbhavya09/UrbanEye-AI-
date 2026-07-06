@@ -1,0 +1,8 @@
+# Assets Folder
+
+This folder is used to store files needed by the UrbanEye AI app.
+
+## What goes here
+
+1. **YOLOv8 model file**
+   Place your trained YOLOv8 model file here, for example:
