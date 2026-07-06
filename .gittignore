@@ -1,0 +1,32 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Environment variables (never commit your real .env file)
+.env
+
+# SQLite database file
+database/urbaneye.db
+
+# Uploaded complaint images
+assets/uploaded_images/
+
+# YOLOv8 model weights (can be large, download separately)
+assets/*.pt
+
+# Streamlit cache
+.streamlit/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
